@@ -1,0 +1,7 @@
+.env
+node_modules/
+dist
+expo
+*.expo
+*.expo.*
+package-lock.json

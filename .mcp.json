@@ -1,0 +1,16 @@
+{
+"mcpServers":{
+    "taller-supabase":{
+        "type": "stdio",
+        "command": "node",
+        "args":["src/server.mjs"],
+        "cwd": ".",
+        "tools": ["*"]
+    },
+    "supabase": {
+        "type": "http",
+      "url": "https://mcp.supabase.com/mcp?project_ref=wfcbwkifxxtmeinmcwuw&features=docs%2Caccount%2Cdatabase%2Cdebugging%2Cdevelopment%2Cfunctions%2Cbranching%2Cfeedback%2Cnotebooks",
+      "tools": ["*"]
+    }
+}
+}
